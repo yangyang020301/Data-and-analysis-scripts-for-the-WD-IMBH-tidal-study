@@ -58,7 +58,8 @@ cd your-repository
 2. Install the required dependencies
 
 ```
-pip install numpy scipy matplotlib joblib kerrgeopy lisatools
+pip install numpy scipy matplotlib joblib
+pip install kerrgeopy lisatools
 ```
 
 3. Run the notebooks in the notebooks/  directory to generate the figures.
@@ -79,7 +80,11 @@ BibTeX:
       primaryClass={astro-ph.HE},
       url={https://arxiv.org/abs/2602.22688}, 
 }
+```
 
+## License
+
+This project is released under the MIT License.
 
 
 
