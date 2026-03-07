@@ -6,17 +6,17 @@ The goal is to allow others to inspect, verify, and reproduce the results.
 
 ## Repository Structure
 
-notebooks/ # Jupyter notebooks used for figure generation
+notebooks/   # Jupyter notebooks used for figure generation
 
-data_npz/ # Data files used to reproduce the figures
+data_npz/    # Data files used to reproduce the figures
 
 function_py/ # Python functions and analysis scripts
 
-Figure/ # The figures in the paper (9 figures)
+Figure/    # The figures in the paper (9 figures)
 
-README.md # This file
+README.md  # This file
 
-LICENSE # MIT License
+LICENSE    # MIT License
 
 .gitgnore 
 
