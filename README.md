@@ -36,7 +36,11 @@ matplotlib
 
 kerrgeopy
 
-sys
+lisatools
+
+joblib 
+
+The scripts also use several modules from the Python standard library.
 
 
 
