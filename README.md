@@ -62,7 +62,7 @@ pip install numpy scipy matplotlib joblib
 pip install kerrgeopy lisatools
 ```
 
-3. Run the notebooks in the notebooks/  directory to generate the figures.
+3. Run the notebooks in the `notebooks/`  directory to generate the figures.
 
 ## Notes
 
