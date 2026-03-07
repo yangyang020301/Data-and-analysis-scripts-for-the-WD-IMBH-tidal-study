@@ -33,11 +33,11 @@ scipy
 
 matplotlib
 
+joblib 
+
 kerrgeopy
 
 lisatools
-
-joblib 
 ```
 
 The scripts also use several modules from the Python standard library.
@@ -54,6 +54,33 @@ Typical workflow:
 git clone https://github.com/yangyang020301/Data-and-analysis-scripts-for-the-WD-IMBH-tidal-study.git
 cd your-repository
 ```
+
+2. Install the required dependencies
+
+```
+pip install numpy scipy matplotlib joblib kerrgeopy lisatools
+```
+
+3. Run the notebooks in the notebooks/  directory to generate the figures.
+
+## Citation
+
+If you use the data or code from this repository, please cite the associated paper:
+
+BibTeX:
+
+```bibtex
+@misc{yang2026relativistictidaldissipationgravitationalwave,
+      title={Relativistic Tidal Dissipation and the Gravitational-wave Signal of a White Dwarf Orbiting an Intermediate-Mass Black Hole}, 
+      author={Yang Yang and Leif Lui and Alejandro Torres-Orjuela and Xian Chen},
+      year={2026},
+      eprint={2602.22688},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.HE},
+      url={https://arxiv.org/abs/2602.22688}, 
+}
+
+
 
 
 
