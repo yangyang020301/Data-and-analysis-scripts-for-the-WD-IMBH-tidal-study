@@ -64,6 +64,17 @@ pip install kerrgeopy lisatools
 
 3. Run the notebooks in the notebooks/  directory to generate the figures.
 
+## Notes
+
+- The scripts assume the directory structure of this repository. 
+  Please make sure the file paths are consistent with the repository layout when running the code.
+
+- Some scripts load `.npz` data files directly. 
+  The internal structure and variable names of these files can be seen in the corresponding code where they are loaded.
+
+- The interpolant functions in `rt_interpolant_function/` are loaded using `joblib`. 
+  Ensure the paths in the scripts correctly point to these files.
+
 ## Citation
 
 If you use the data or code from this repository, please cite the associated paper:
