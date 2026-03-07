@@ -21,3 +21,21 @@ LICENSE    # MIT License
 .gitgnore 
 
 
+## Environment and Dependencies
+
+This project uses Python ≥3.9. Main dependencies include:
+
+numpy
+
+scipy
+
+matplotlib
+
+astropy
+
+
+
+
+
+
+
