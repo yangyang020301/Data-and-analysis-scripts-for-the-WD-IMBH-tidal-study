@@ -42,7 +42,18 @@ joblib
 
 The scripts also use several modules from the Python standard library.
 
+## Reproducing the Figures
 
+The figures in the paper can be reproduced using the notebooks in the notebooks/ directory.
+
+Typical workflow:
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
 
 
 
