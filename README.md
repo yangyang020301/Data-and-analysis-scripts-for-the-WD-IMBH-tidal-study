@@ -26,6 +26,7 @@ They are expected to work with most recent Python 3 versions.
 
 Main dependencies include:
 
+```
 numpy
 
 scipy
@@ -37,6 +38,7 @@ kerrgeopy
 lisatools
 
 joblib 
+```
 
 The scripts also use several modules from the Python standard library.
 
