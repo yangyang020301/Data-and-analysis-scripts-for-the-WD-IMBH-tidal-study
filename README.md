@@ -51,7 +51,7 @@ Typical workflow:
 1. Clone the repository
 
 ```
-git clone [https://github.com/your-username/your-repository.git](https://github.com/yangyang020301/Data-and-analysis-scripts-for-the-WD-IMBH-tidal-study.git)
+git clone https://github.com/yangyang020301/Data-and-analysis-scripts-for-the-WD-IMBH-tidal-study.git
 cd your-repository
 ```
 
