@@ -23,7 +23,10 @@ LICENSE    # MIT License
 
 ## Environment and Dependencies
 
-This project uses Python ≥3.9. Main dependencies include:
+The scripts were tested with Python 3.13. 
+They are expected to work with most recent Python 3 versions.
+
+Main dependencies include:
 
 numpy
 
@@ -31,9 +34,9 @@ scipy
 
 matplotlib
 
-astropy
+kerrgeopy
 
-
+sys
 
 
 
