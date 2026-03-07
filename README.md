@@ -6,21 +6,15 @@ The goal is to allow others to inspect, verify, and reproduce the results.
 
 ## Repository Structure
 
-notebooks/   # Jupyter notebooks used for figure generation
-
-data_npz/    # Data files used to reproduce the figures
-
-rt_interpolant_function/  # Interpolant functions used to compute the tidal disruption radius
-
+notebooks/ # Jupyter notebooks used for figure generation
+data_npz/ # Data files used to reproduce the figures
+rt_interpolant_function/ # Interpolant functions for tidal disruption radius
 function_py/ # Python functions and analysis scripts
+Figure/ # Figures from the paper (9 figures)
 
-Figure/    # The figures in the paper (9 figures)
-
-README.md  # This file
-
-LICENSE    # MIT License
-
-.gitgnore 
+README.md # Project description
+LICENSE # MIT License
+.gitignore # Files ignored by git
 
 
 ## Environment and Dependencies
