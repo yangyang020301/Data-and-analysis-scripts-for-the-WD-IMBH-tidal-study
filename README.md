@@ -73,11 +73,11 @@ pip install kerrgeopy lisatools
   The internal structure and variable names of these files can be seen in the corresponding code where they are loaded.
 
 - Some data files are too large. 
-  Due to the size of the `FIG_6_trajectory_data_part` and `all_teukolsky_modes_p_20-40_part` files in the `data_npz` file, they were uploaded in separate volumes.
-  Please download and restore the files to `.npz` format.
+  Due to the size of the `FIG_6_trajectory_data_part` and `all_teukolsky_modes_p_20-40_part` files in the `data_npz` file, they were uploaded in separate volumes. 
+  Please download and restore the files to `.npz` format. 
 ```
-pip install numpy scipy matplotlib joblib
-pip install kerrgeopy lisatools
+cat data_npz/FIG_6_trajectory_data_part/data_FIG_6_trajectory_part_* > data_FIG_6_trajectory.npz
+cat data_npz/all_teukolsky_modes_p_20-40_part/all_teukolsky_modes_p_20-40_part_* > all_teukolsky_modes_p_20-40.npz
 ```  
   
 - The interpolant functions in `rt_interpolant_function/` are loaded using `joblib`. 
